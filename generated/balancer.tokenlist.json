@@ -17,8 +17,15 @@
         "Swap"
     ],
     "logoURI": "https://raw.githubusercontent.com/balancer/pebbles/master/images/pebbles-pad.256w.png",
-    "timestamp": "2024-07-26T05:46:47.705Z",
+    "timestamp": "2024-07-26T07:43:24.708Z",
     "tokens": [
+        {
+            "chainId": 167009,
+            "address": "0x0Be4Cb1416e178177E7EF19dd199860E755213e7",
+            "name": "WETH",
+            "symbol": "WETH",
+            "decimals": 18
+        },
         {
             "chainId": 167009,
             "address": "0x961A0ae05CC348bfd24eE49318F40D6701245f2d",

@@ -9,8 +9,9 @@ import { Network, TokensForList } from '../../types'
 // import sepolia from './tokens/sepolia'
 // import zkevm from './tokens/zkevm'
 // import fantom from './tokens/fantom'
-import artio from './tokens/artio'
-import bartio from './tokens/bartio'
+// import artio from './tokens/artio'
+// import bartio from './tokens/bartio'
+import hekla from './tokens/hekla'
 
 export const tokens: TokensForList = {
   [Network.Ethereum]: [],
@@ -23,6 +24,9 @@ export const tokens: TokensForList = {
   [Network.Sepolia]: [],
   [Network.Base]: [],
   [Network.Fantom]: [],
-  [Network.Artio]: artio,
-  [Network.Bartio]: bartio,
+  [Network.Fraxtal]: [],
+  [Network.Mode]: [],
+  [Network.Artio]: [],
+  [Network.Bartio]: [],
+  [Network.Hekla]: hekla,
 }

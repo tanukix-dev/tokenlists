@@ -15,6 +15,7 @@ export enum Network {
   Mode = '34443',
   Artio = '80085',
   Bartio = '80084',
+  Hekla = '167009',
 }
 
 export interface Config {

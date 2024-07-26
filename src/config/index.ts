@@ -6,14 +6,14 @@ import bartio from './bartio'
 import base from './base'
 import ethereum from './ethereum'
 import fantom from './fantom'
+import fraxtal from './fraxtal'
 import gnosis from './gnosis'
+import hekla from './hekla'
+import mode from './mode'
 import optimism from './optimism'
 import polygon from './polygon'
 import sepolia from './sepolia'
 import zkevm from './zkevm'
-import fantom from './fantom'
-import fraxtal from './fraxtal'
-import mode from './mode'
 
 const config: Configs = {
   [Network.Arbitrum]: arbitrum,
@@ -30,6 +30,7 @@ const config: Configs = {
   [Network.Mode]: mode,
   [Network.Artio]: artio,
   [Network.Bartio]: bartio,
+  [Network.Hekla]: hekla,
 }
 
 export default config

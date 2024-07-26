@@ -1,9 +1,12 @@
-import { Network, Configs } from '../types'
+import { Configs, Network } from '../types'
 import arbitrum from './arbitrum'
+import artio from './artio'
 import avalanche from './avalanche'
+import bartio from './bartio'
 import base from './base'
-import gnosis from './gnosis'
 import ethereum from './ethereum'
+import fantom from './fantom'
+import gnosis from './gnosis'
 import optimism from './optimism'
 import polygon from './polygon'
 import sepolia from './sepolia'
@@ -25,6 +28,8 @@ const config: Configs = {
   [Network.Fantom]: fantom,
   [Network.Fraxtal]: fraxtal,
   [Network.Mode]: mode,
+  [Network.Artio]: artio,
+  [Network.Bartio]: bartio,
 }
 
 export default config

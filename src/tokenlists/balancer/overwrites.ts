@@ -926,4 +926,10 @@ export const overwrites: OverwritesForList = {
       },
     },
   },
+  [Network.Artio]: {
+    '0x9AA488bc4c3c237104CD6661e076B22e0535eCFA': {
+      symbol: 'BAL',
+      name: 'BAL',
+    },
+  },
 }

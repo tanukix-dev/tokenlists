@@ -13,6 +13,8 @@ export enum Network {
   Fantom = '250',
   Fraxtal = '252',
   Mode = '34443',
+  Artio = '80085',
+  Bartio = '80084',
 }
 
 export interface Config {

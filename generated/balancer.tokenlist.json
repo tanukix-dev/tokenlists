@@ -17,8 +17,36 @@
         "Swap"
     ],
     "logoURI": "https://raw.githubusercontent.com/balancer/pebbles/master/images/pebbles-pad.256w.png",
-    "timestamp": "2024-07-26T07:43:24.708Z",
+    "timestamp": "2024-07-29T02:58:14.595Z",
     "tokens": [
+        {
+            "chainId": 167000,
+            "address": "0xA51894664A773981C6C112C43ce576f315d5b1B6",
+            "name": "Wrapped Ether",
+            "symbol": "WETH",
+            "decimals": 18
+        },
+        {
+            "chainId": 167000,
+            "address": "0x07d83526730c7438048D55A4fc0b850e2aaB6f0b",
+            "name": "USD Coin",
+            "symbol": "USDC",
+            "decimals": 6
+        },
+        {
+            "chainId": 167000,
+            "address": "0x2DEF195713CF4a606B49D07E520e22C17899a736",
+            "name": "Tether USD",
+            "symbol": "USDT",
+            "decimals": 6
+        },
+        {
+            "chainId": 167000,
+            "address": "0x7d02A3E0180451B17e5D7f29eF78d06F8117106C",
+            "name": "Dai Stablecoin",
+            "symbol": "DAI",
+            "decimals": 18
+        },
         {
             "chainId": 167009,
             "address": "0x0Be4Cb1416e178177E7EF19dd199860E755213e7",

@@ -1,0 +1,7 @@
+export default [
+  // official
+  '0xa51894664a773981c6c112c43ce576f315d5b1b6', // WETH
+  '0x07d83526730c7438048d55a4fc0b850e2aab6f0b', // USDC
+  '0x2def195713cf4a606b49d07e520e22c17899a736', // USDT
+  '0x7d02a3e0180451b17e5d7f29ef78d06f8117106c', // DAI
+]

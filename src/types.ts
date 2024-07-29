@@ -16,6 +16,7 @@ export enum Network {
   Artio = '80085',
   Bartio = '80084',
   Hekla = '167009',
+  Taiko = '167000',
 }
 
 export interface Config {

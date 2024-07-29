@@ -12,6 +12,7 @@ import { Network, TokensForList } from '../../types'
 // import artio from './tokens/artio'
 // import bartio from './tokens/bartio'
 import hekla from './tokens/hekla'
+import taiko from './tokens/taiko'
 
 export const tokens: TokensForList = {
   [Network.Ethereum]: [],
@@ -29,4 +30,5 @@ export const tokens: TokensForList = {
   [Network.Artio]: [],
   [Network.Bartio]: [],
   [Network.Hekla]: hekla,
+  [Network.Taiko]: taiko,
 }

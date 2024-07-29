@@ -13,6 +13,7 @@ import mode from './mode'
 import optimism from './optimism'
 import polygon from './polygon'
 import sepolia from './sepolia'
+import taiko from './taiko'
 import zkevm from './zkevm'
 
 const config: Configs = {
@@ -31,6 +32,7 @@ const config: Configs = {
   [Network.Artio]: artio,
   [Network.Bartio]: bartio,
   [Network.Hekla]: hekla,
+  [Network.Taiko]: taiko,
 }
 
 export default config
